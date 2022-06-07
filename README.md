@@ -11,6 +11,13 @@ Please use any well known language (Perl, C++, Java, python, php) to develop cod
 
 - Clone the Repo
 - Add/Modify entries in input files named input_1.txt and input_2.txt
-- Execute the test.php binary script 
+- Run the test.php script using the command mentioned below
 - Open the results_file_1.txt and results_file_2.txt
 
+## Command
+
+Here is the command which you need to run from Git Bash (Windows) or terminal (Mac/Linux)
+
+```sh
+php test.php
+```
