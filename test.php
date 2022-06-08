@@ -17,6 +17,10 @@ if(!file_exists('./input_2.txt'))
 $file_1 = file_get_contents('./input_1.txt');
 $file_2 = file_get_contents('./input_2.txt');
 
+//Fix for windows machines
+$file_1 = str_replace("\r\n", "\n", $file_1);
+$file_2 = str_replace("\r\n", "\n", $file_2);
+
 // Remove empty spaces
 $file_1 = str_replace("\n\n", "\n", $file_1);
 $file_2 = str_replace("\n\n", "\n", $file_2);
